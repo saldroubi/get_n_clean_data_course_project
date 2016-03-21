@@ -20,7 +20,10 @@ data_type
 	Indicates if the row belongs to test data or train data. 
 	1 means test data
 	2 means train data. 
-	
+
+The following variables map to the original features names (or function values) in the original data set. 
+The names were modified slightly due to limitation in R in naming variables.  For example a dash "-" is not 
+allowed in R for a variable name. 
  
 tBodyAcc_mean___X -> tBodyAcc-mean()-X
  
